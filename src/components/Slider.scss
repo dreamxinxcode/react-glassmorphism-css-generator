@@ -1,3 +1,13 @@
 .slider {
   width: auto;
+
+  .indicator {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+  }
+
+  input {
+    width: 100%;
+  }
 }
