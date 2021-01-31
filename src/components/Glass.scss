@@ -1,0 +1,17 @@
+#glass-container {
+  height: 5vh;
+  padding: 10rem 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  #glass {
+    width: 80%;
+    height: 10rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+  }
+}
