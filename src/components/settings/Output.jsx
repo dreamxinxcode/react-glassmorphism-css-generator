@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import './Output.scss';
-import { SettingsContext } from '../SettingsContext';
+import { SettingsContext } from '../../SettingsContext';
 
 function Output() {
   const [settings, setSettings] = useContext(SettingsContext);

@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import './Slider.scss';
-import { SettingsContext } from '../SettingsContext';
+import { SettingsContext } from '../../SettingsContext';
 
 function BlurSlider() {
   const [settings, setSettings] = useContext(SettingsContext);
