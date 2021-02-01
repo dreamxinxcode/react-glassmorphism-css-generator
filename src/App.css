@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 .App {
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
   background: #ef32d9; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ef32d9, #89fffd); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ef32d9, #89fffd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */

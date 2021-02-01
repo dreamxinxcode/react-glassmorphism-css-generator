@@ -7,8 +7,10 @@ import Output from './Output';
 function Settings() {
   return (
     <div id='settings'>
-      <BlurSlider />
-      <TransparencySlider />
+      <div id="sliders">
+        <BlurSlider />
+        <TransparencySlider />
+      </div>
       <Output />
     </div>
   )

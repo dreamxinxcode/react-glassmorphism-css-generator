@@ -1,5 +1,5 @@
 import './App.css';
-import Glass from './components/Glass';
+import Display from './components/display/Display';
 import Settings from './components/settings/Settings';
 import { SettingsProvider } from './SettingsContext';
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <SettingsProvider>
       <div className="App">
-          <Glass />
+          <Display />
           <Settings />
       </div>
     </SettingsProvider>

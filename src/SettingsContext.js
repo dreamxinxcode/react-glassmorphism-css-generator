@@ -4,8 +4,8 @@ export const SettingsContext = createContext();
 
 export const SettingsProvider = (props) => {
   const [settings, setSettings] = useState({
-    blur: 10.0,
-    transparency: 0.50,
+    blur: 8.0,
+    transparency: 0.1,
     outline: true
   });
   
