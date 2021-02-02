@@ -9,7 +9,6 @@ function Display() {
       <Glass />
       <Circle />
       <Circle />
-      <Circle />
     </div>
   )
 }
