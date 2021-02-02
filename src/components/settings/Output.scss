@@ -6,6 +6,11 @@
   padding: 2rem 1rem;
   position: relative;
 
+  #code {
+    display: flex;
+    flex-direction: column;
+  }
+
   span {
     color: #fff;
   }

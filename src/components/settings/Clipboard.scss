@@ -5,8 +5,13 @@
   color: #f2f3f4;
   cursor: pointer;
   font-family: Audiowide;
+  transition: transform 0.25s ease;
 
   i {
     margin-left: .25rem;
   }
+}
+
+#clipboard:active {
+  transform: scale(1.25);
 }

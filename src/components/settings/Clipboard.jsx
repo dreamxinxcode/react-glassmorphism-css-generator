@@ -3,13 +3,18 @@ import './Clipboard.scss';
 
 function Clipboard() {
   const handleCopy = () => {
-    
+    const codeDiv = document.getElementById('code');
+    const css = codeDiv.innerText;
+    const clipboardArea = document.querySelector('#clipboard span');
+
+    navigator.clipboard.writeText(css)
+    .then(() => clipboardArea.innerText = 'Copied');
   }
 
   return (
-    <div id='clipboard'>
+    <div onClick={handleCopy} id='clipboard'>
       <span>Copy</span>
-      <i class="far fa-copy"></i>
+      <i className="far fa-copy"></i>
     </div>
   )
 }
