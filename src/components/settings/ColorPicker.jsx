@@ -16,7 +16,7 @@ function ColorPicker() {
       <span>Color</span>
       <input onChange={handleChange} type="color" id="color" name="color" value="#ffffff"></input>
     </div>
-  )
+  ) 
 }
 
 export default ColorPicker
