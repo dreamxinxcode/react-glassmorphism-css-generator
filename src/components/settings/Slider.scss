@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+.slider {
+  width: 100%;
+  font-family: Audiowide;
+  font-weight: 700;
+
+  .indicator {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+  }
+
+  input {
+    width: 100%;
+  }
+}
+
+.slider:nth-child(1) {
+  margin-bottom: 1.5rem;
+}
