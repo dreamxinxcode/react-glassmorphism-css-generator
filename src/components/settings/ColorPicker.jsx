@@ -12,7 +12,7 @@ function ColorPicker() {
   }
 
   return (
-    <div>
+    <div id='color-picker'>
       <span>Color</span>
       <input onChange={handleChange} type="color" id="color" name="color" value="#ffffff"></input>
     </div>

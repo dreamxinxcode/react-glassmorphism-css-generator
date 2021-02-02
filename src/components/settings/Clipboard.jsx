@@ -8,7 +8,7 @@ function Clipboard() {
 
   return (
     <div id='clipboard'>
-      Copy
+      <span>Copy</span>
       <i class="far fa-copy"></i>
     </div>
   )
