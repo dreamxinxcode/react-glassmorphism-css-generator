@@ -15,7 +15,7 @@ function TransparencySlider() {
         <label htmlFor="transparency">Transparency</label>
         <span>{settings.transparency}</span>
       </div>
-      <input onChange={handleChange} type="range" id="transparency" name="transparency" min="0.00" max="1.00" step='0.01'></input>
+      <input onChange={handleChange} type="range" id="transparency" name="transparency" min="0.00" max="1.00" step='0.01' value={settings.transparency}></input>
     </div>
   )
 }

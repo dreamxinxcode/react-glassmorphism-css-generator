@@ -5,5 +5,13 @@
 
   #sliders {
     margin-bottom: 2rem;
+    display: flex;
+
+    @media screen and (max-width: 900px) {
+      flex-direction: column;
+    }
+    @media screen and (min-width: 300px) {
+      flex-direction: column;
+    }
   }
 }

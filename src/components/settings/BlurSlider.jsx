@@ -15,7 +15,7 @@ function BlurSlider() {
         <label htmlFor="blur">Blur</label>
         <span>{settings.blur} px</span>
       </div>
-      <input onChange={handleChange} type="range" id="blur" name="blur" min="0.0" max="20.0" step='0.1'></input>
+      <input onChange={handleChange} type="range" id="blur" name="blur" min="0.0" max="20.0" step='0.1' value={settings.blur}></input>
     </div>
   )
 }

@@ -6,6 +6,7 @@ export const SettingsProvider = (props) => {
   const [settings, setSettings] = useState({
     blur: 8.0,
     transparency: 0.1,
+    color: '255, 255, 255',
     outline: true
   });
   

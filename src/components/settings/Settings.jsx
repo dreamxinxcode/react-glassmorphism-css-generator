@@ -3,6 +3,7 @@ import  './Settings.scss';
 import BlurSlider from './BlurSlider';
 import TransparencySlider from './TransparencySlider';
 import Output from './Output';
+import ColorPicker from './ColorPicker';
 
 function Settings() {
   return (
@@ -11,6 +12,7 @@ function Settings() {
         <BlurSlider />
         <TransparencySlider />
       </div>
+      <ColorPicker />
       <Output />
     </div>
   )

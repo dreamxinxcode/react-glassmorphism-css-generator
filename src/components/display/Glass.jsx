@@ -8,7 +8,7 @@ function Glass() {
 
   useEffect(() => {
     const glass = document.getElementById('glass');
-    glass.style.background = `rgba(255, 255, 255, ${settings.transparency})`;
+    glass.style.background = `rgba(${settings.color}, ${settings.transparency})`;
     glass.style.backdropFilter = `blur(${settings.blur}px)`;
     glass.style.webkitBackdropFilter = `blur(${settings.blur}px)`;
   }, [settings])
