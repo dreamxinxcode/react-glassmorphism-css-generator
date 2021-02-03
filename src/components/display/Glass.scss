@@ -12,6 +12,12 @@
     z-index: 1;
   }
 
+  @media (max-width: 768px) {
+    span {
+      font-size: 6rem;
+    }
+  }
+
   #glass {
     z-index: 1;
     position: absolute;
