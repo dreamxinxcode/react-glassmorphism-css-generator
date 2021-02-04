@@ -7,6 +7,12 @@
   font-family: Audiowide;
   transition: transform 0.25s ease;
 
+  span {
+    @media screen and (max-width: 440px) {
+      display: none;
+    }
+  }
+
   i {
     margin-left: .25rem;
   }
